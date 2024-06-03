@@ -11,6 +11,8 @@ int main(){
     int x=8;
     int y=10;
 
+    //condition ? expression1(true) : expression2(false);
+
     int result=(x>y)? x:y;
 
     cout<<"The bigger number is:"<<result<<endl;

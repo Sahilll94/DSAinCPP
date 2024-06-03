@@ -1,23 +1,24 @@
 #include<iostream>
 using namespace std;
 
-int sum(int a, int b){
-    int sumis=a+b;
-    return sumis;
+
+void hello(){
+    cout << 4;
+    return;
 }
+
+void solve(){
+    cout << 3;
+    hello();
+    cout << 4;
+}
+
+
 
 int main()
 {
-
-    int a;
-    cout<<"Enter value a:";
-    cin>>a;
-
-    int b;
-    cout<<"Enter value b:";
-    cin>>b;
-
-    int answer=sum(a,b);
-    cout<<"The sum is:"<<answer<<endl;
-
+    cout << 1;
+    solve();
+    cout << 2;
+    return 0;
 }
